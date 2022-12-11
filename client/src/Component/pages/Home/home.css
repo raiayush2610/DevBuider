@@ -1,5 +1,5 @@
 .middle-img{
-          height: 450px;
+          height:400px;
           width: 100%;
           transition-delay: 10s;
           transition: width 20s;
@@ -9,7 +9,7 @@
 
 .middle-container{
           position: relative;
-        top: 70px;
+       
 }
 
 .middle-h2{
@@ -19,13 +19,15 @@
           left:40%;
           color:#ffff;
           font-size:312.5% ;
-          transition: opacity-in-out;
-          transition: opacity 1s ease;
-          transition: width 20s;
+          
+            -webkit-animation: display .5s linear forwards;
+            animation: display .5s linear forwards;
+          
 
 }  
 .midle-h2{
   opacity: 0;
+
   transition: ease-in-out;
 
 }
