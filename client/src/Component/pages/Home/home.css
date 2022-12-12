@@ -4,7 +4,9 @@
           transition-delay: 10s;
           transition: width 20s;
         }
-
+.title-city{
+  padding-left: 20px;
+}
         
 
 .middle-container{
@@ -63,7 +65,7 @@
     position: absolute;
     top: 60%;
     left:10%;
-    color:#ffff;
+    color:rgb(220, 27, 27);
     font-size:200% ;
     transition: opacity-in-out;
     transition: opacity 1s ease;
@@ -75,9 +77,9 @@
   .middle-h2{
           
     position: absolute;
-    top: 65%;
-    left:20%;
-    color:#ffff;
+    top: 5%;
+    left:55%;
+    color:rgb(249, 249, 249);
     font-size:200% ;
     transition: opacity-in-out;
     transition: opacity 1s ease;
